@@ -58,7 +58,7 @@ export const data = {
 function HomePage() {
   return (
     <div>
-      <h1>DATS Project</h1>
+      <h2>Statistics</h2>
       <Line options={options} data={data} />
     </div>
   );
