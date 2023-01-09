@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@@faker-js/faker":
+  version "8.0.0-alpha.0"
+  resolved "https://codeload.github.com/faker-js/faker/tar.gz/35f386989ec77fb89f1a91a51572aee0a8c5b571"
+
 "@babel/runtime-corejs3@^7.10.2":
   version "7.20.7"
   resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.20.7.tgz#a1e5ea3d758ba6beb715210142912e3f29981d84"
