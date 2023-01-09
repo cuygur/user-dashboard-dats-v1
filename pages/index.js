@@ -31,7 +31,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Total Users",
+      text: "",
     },
   },
 };
@@ -81,8 +81,11 @@ function HomePage() {
     <div>
       <h2>Network Statistics</h2>
       <div>
+        <h3>Registered Users in the network</h3>
         <Line options={options} data={registeredUsers} />
+        <h3>Registered Bandwith in the network</h3>
         <Line options={options} data={registeredBandwith} />
+        <h3>Registered Cpu Cores in the network</h3>
         <Line options={options} data={registeredCpuCores} />
       </div>
     </div>
