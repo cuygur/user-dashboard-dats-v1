@@ -59,6 +59,8 @@ function HomePage() {
   return <div>
     <h1>DATS Project</h1>
     <Line options={options} data={data} />
+
+
     
   </div>
 }
