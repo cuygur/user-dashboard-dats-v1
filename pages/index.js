@@ -10,7 +10,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-import faker from 'faker';
+import { faker } from '@faker-js/faker';
 
 ChartJS.register(
   CategoryScale,
@@ -55,6 +55,11 @@ export const data = {
   ],
 };
 
-export function App() {
-  return <Line options={options} data={data} />;
+function HomePage() {
+  return <div>
+    <h1>DATS Project</h1>
+    <Line options={options} data={data} />
+    
+  </div>
 }
+export default HomePage
