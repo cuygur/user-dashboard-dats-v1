@@ -81,7 +81,7 @@ function HomePage() {
     <div className="">
       <h2 className="">Network Statistics</h2>
       <div className="grid">
-        <div className="col-12 lg:col-6 xl:col-6 px-4">
+        <div className="col-12 lg:col-6 xl:col-6">
           <h4>Registered Users in the network</h4>
           <Line options={options} data={registeredUsers} />
         </div>
